@@ -1,0 +1,89 @@
+.nav-cont {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid white;
+    padding-left: 10px;
+    gap: 20px;
+}
+
+.hero-img {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 { 
+    padding-left: 5px;
+}
+
+#first {
+    width: 1030px;
+ }
+
+
+.container {
+    display: flex;
+    margin-bottom: 45px;
+    align-items:stretch;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: rightl
+
+}
+
+#child{
+    display: flex;
+    flex-flow: row;
+    align-items:center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid grey;
+}
+
+#small{
+    width: 120px;
+    height: 100px;
+}
+button{
+    background-color: rgb(200, 152, 28);
+    color: white;
+    width: 80px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#april{
+    color: gray;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.content {
+    padding: 100px;
+}
